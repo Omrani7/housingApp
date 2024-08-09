@@ -1,0 +1,6 @@
+<section class="listing">
+  <img [src]="housinglocation.photo" alt="{{housinglocation.name}}" class="listing-photo">
+  <h1 class="listing-heading">{{housinglocation.name}}</h1>
+  <p class="listing-location">{{housinglocation.city}}, {{housinglocation.state}}</p>
+  <a [routerLink]="['details', housinglocation.id]">click here for more details</a>
+</section>
